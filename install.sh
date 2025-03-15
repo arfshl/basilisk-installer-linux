@@ -6,5 +6,6 @@ sudo tar xvf /opt/basilisk*.tar.*
 sudo chmod -R 755 /opt/basilisk*
 sudo ln -s /opt/basilisk/basilisk /usr/local/bin/basilisk
 sudo wget https://github.com/arfshl/basilisk-installer-linux/raw/main/basilisk.desktop -P /usr/local/share/applications
-rm /opt/basilisk*.tar.* install.sh
+sudo rm /opt/basilisk*.tar.*
+rm ~/install.sh
 basilisk
